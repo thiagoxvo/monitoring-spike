@@ -8,6 +8,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
+  config.vm.box_url = "https://vagrantcloud.com/hansode/boxes/centos-6.6-x86_64"
   config.vm.box = "centos-6.6"
 
   # Disable automatic box update checking. If you disable this, then
